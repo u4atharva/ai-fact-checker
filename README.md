@@ -9,7 +9,7 @@ When you provide a claim:
 1. The AI extracts the core entities it needs to research.
 2. It pauses its text generation to call the `wikipedia` tool.
 3. Our Python script queries Wikipedia, summarizes the relevant page, and feeds the encyclopedia data back to the LLM.
-4. The AI outputs a final `[TRUE]`, `[FALSE]`, or `[PARTIALLY TRUE]` verdict backed directly by the cited data.
+4. The AI outputs a final `[TRUE]`, `[FALSE]`, or `[PARTIALLY TRUE]` verdict backed directly by the cited data
 
 ## Setup Instructions
 
